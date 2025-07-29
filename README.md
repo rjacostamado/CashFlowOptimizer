@@ -22,10 +22,18 @@ Prescriptive analytics uses mathematical models and optimization techniques to r
 
 ## Repository Structure
 
-PrescriptiveAnalytics
-├── models # Optimization models
-├── solvers # Algorithms and solver interfaces
-├── experiments # Experiment scripts and data
-├── results # Output files and visualizations
-├── data # Input data files
-└── README.md # Project overview
+```
+PrescriptiveAnalytics/
+├── models/         # Optimization models
+├── solvers/        # Algorithms and solver interfaces
+├── experiments/    # Experiment scripts and data
+├── results/        # Output files and visualizations
+├── data/           # Input data files
+└── README.md       # Project overview
+```
+
+## License
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
