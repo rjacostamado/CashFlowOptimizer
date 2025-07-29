@@ -24,12 +24,12 @@ Prescriptive analytics uses mathematical models and optimization techniques to r
 
 ```
 PrescriptiveAnalytics/
-├── problems/         # Optimization models
-├── solution procedures/        # Algorithms and solver interfaces
-├── experiments/    # Experiment scripts and data
-├── results/        # Output files and visualizations
-├── data/           # Input data files
-└── README.md       # Project overview
+├── problems/             # Optimization models
+├── solution procedures/  # Algorithms and solver interfaces
+├── experiments/          # Experiment scripts and data
+├── results/              # Output files and visualizations
+├── data/                 # Input data files
+└── README.md             # Project overview
 ```
 
 ## License
