@@ -20,8 +20,8 @@ Prescriptive analytics uses mathematical models and optimization techniques to r
 - Eclipse / Jupyter
 - Git for version control
 
-## 📂 Repository Structure
-PrescriptiveAnalytics/
+## Repository Structure
+PrescriptiveAnalytics
 ├── models/ # Optimization models
 ├── solvers/ # Algorithms and solver interfaces
 ├── experiments/ # Experiment scripts and data
