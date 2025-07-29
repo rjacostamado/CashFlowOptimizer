@@ -4,7 +4,7 @@
 
 This repository hosts a collection of prescriptive analytics tools focused on mathematical optimization. It includes models, algorithms, and experiment results designed to support complex decision-making across various domains.
 
-## 📌 Overview
+## Overview
 
 Prescriptive analytics uses mathematical models and optimization techniques to recommend actions that drive better outcomes. This repository includes:
 
