@@ -21,10 +21,11 @@ Prescriptive analytics uses mathematical models and optimization techniques to r
 - Git for version control
 
 ## Repository Structure
+
 PrescriptiveAnalytics
-├── models/ # Optimization models
-├── solvers/ # Algorithms and solver interfaces
-├── experiments/ # Experiment scripts and data
-├── results/ # Output files and visualizations
-├── data/ # Input data files
+├── models # Optimization models
+├── solvers # Algorithms and solver interfaces
+├── experiments # Experiment scripts and data
+├── results # Output files and visualizations
+├── data # Input data files
 └── README.md # Project overview
