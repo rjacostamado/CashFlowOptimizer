@@ -1,4 +1,4 @@
-Cash Flow Optimization Problem
+The Cash Flow Optimization Problem
 
 This module provides a solution to the problem of deciding when to invest and for how long in a virtual financial instrument through a bank's digital platform. The model considers the interest rates offered by the bank, which vary depending on the duration of the investment.
 
