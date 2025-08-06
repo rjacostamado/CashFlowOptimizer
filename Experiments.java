@@ -20,7 +20,7 @@ public class Experiments {
 		{
 			LocalDate hor_end = endDate.withYear(endDate.getYear() + i * 1);
 			/*
-			 * The investments in Bancolombia span from 30 up to 1799 days and it is over
+			 * The investments in Bank span from 30 up to 1799 days and it is over
 			 * this time span that the interest rates are defined. If there are 1800 or more
 			 * days in the planning horizon, then the model cannot be built as there are not
 			 * data available for the corresponding interest rates.
@@ -46,7 +46,7 @@ public class Experiments {
 				 * different lengths of virtual investments.
 				 */
 				CFO.InterestRateLookup();
-				CFO.readData("data/BancolombiaInterestRates.csv");
+				CFO.readData("data/BankInterestRates.csv");
 
 				// Record the start time
 				long startTimeOrg = System.nanoTime();
