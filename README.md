@@ -1,39 +1,50 @@
-# PrescriptiveAnalytics
+The Cash Flow Optimization Problem
 
-**Optimization models, algorithms, and experiments**
+This module provides a solution to the problem of deciding when to invest and for how long in a virtual financial instrument through a bank's digital platform. The model considers the interest rates offered by the bank, which vary depending on the duration of the investment.
 
-This repository hosts a collection of prescriptive analytics tools focused on mathematical optimization. It includes models, algorithms, and experiment results designed to support complex decision-making across various domains.
+The goal is to maximize the investor’s returns while ensuring that their financial requirements are met throughout a defined planning horizon.
 
-## Overview
+Implementation Details and Assumptions
 
-Prescriptive analytics uses mathematical models and optimization techniques to recommend actions that drive better outcomes. This repository includes:
+This is an experimental version of the solution.
 
-- Formulations of linear, integer, and nonlinear optimization problems
-- Algorithms for exact and heuristic solutions
-- Experimental results and performance benchmarks
-- Reproducible code organized by topic or use case
+The model is implemented in Java and solved using IBM CPLEX.
 
-## Technologies
+The project includes three main Java classes:
 
-- Java / Python / CPLEX 
-- Apache Commons
-- Eclipse / Jupyter
-- Git for version control
+Node: Represents a day in the planning horizon with attributes such as inflow, outflow, and date.
 
-## Repository Structure
+CashFlowModel: Contains the optimization model.
 
-```
-PrescriptiveAnalytics/
-├── problems/             # Optimization models
-├── solution procedures/  # Algorithms and solver interfaces
-├── experiments/          # Experiment scripts and data
-├── results/              # Output files and visualizations
-├── data/                 # Input data files
-└── README.md             # Project overview
-```
+Experimentation: Builds the model instance and executes the optimization.
 
-## License
+Output Format
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+The output is written to a .csv file that serves as a cash flow database.
 
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+Each row in the CSV corresponds to a financial event on a specific date within the planning period.
+
+The CSV file includes the following columns:
+
+start_date
+
+days_between
+
+end_date
+
+value
+
+interests
+
+type – indicates the type of event:
+
+"investment": an investment was made on this date.
+
+"balance": the available balance in the bank account.
+
+The filename follows the format:
+
+cfo_between_<start_date>_and_<end_date>.csv
+
+
+>>>>>>> 52397b622947f1a7047e4123b0fa1c324ee21fb5
