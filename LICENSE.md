@@ -1,4 +1,4 @@
-Copyright Rolaando José Acosta Amado 2025
+Copyright Rolando José Acosta Amado 2025
 
 All rights reserved.
 
