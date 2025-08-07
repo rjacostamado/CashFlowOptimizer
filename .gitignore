@@ -1,0 +1,37 @@
+# === Eclipse IDE ===
+.classpath
+.project
+.settings/
+
+# === Java build ===
+*.class
+bin/
+target/
+out/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs & temp files ===
+*.log
+*.tmp
+*.swp
+*.bak
+
+# === IntelliJ (if used) ===
+.idea/
+*.iml
+
+# === Maven / Gradle (if used) ===
+*.jar
+*.war
+*.ear
+build/
+.gradle/
+mvnw
+mvnw.cmd
+
+# === Other ===
+*.orig
